@@ -12,7 +12,7 @@ const Contact =() => {
       <div className="section-container">
           <Header 
           heading = "Get in touch."
-          details = "feel free to drop me an email"
+          details = "feel free to drop me an em@il"
           />
           <div className="contact-form-container">
             <form 
