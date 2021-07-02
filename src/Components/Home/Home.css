@@ -1,0 +1,121 @@
+.home-container{
+  background: linear-gradient(to right, #2c3e50, #3498db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+    padding: 100px 10%;
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100vh;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header-text > h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+.header-text > p{
+    font-family: 'Poppins', sans-serif;   
+     font-style: normal;
+    font-weight: 600px;
+    font-size: 26px;
+    line-height: 20px;
+    color: #ffffff;
+    margin: 10px;
+}
+.head-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:  35px,10px;
+}
+.typewrite{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 34px;
+    height: 52px;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+    box-shadow:1px 10px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    margin: 4px;
+}
+.btn-white{
+    background: white;
+    color: #112d57 ;
+}
+.btn-transparent{
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+}
+.btn:hover{
+
+    box-shadow: 1px 10px 32px rgba(0, 0, 0, 0.55);
+    transition: all 0.3s ease-in-out;
+}
+.btn-txt {
+    font-family: 'Poppins', sans-serif;   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.btn-black{
+    background: #415b75;
+    color: white;
+}
+.splash-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-anime{
+    margin-bottom: -80px;
+}
+
+
+
+@media only screen and (max-height: 550px){
+    .home-anime{
+        width: 400px;
+    }
+}
+
+
+
+@media only screen and (max-width:640px){
+    .home-anime{
+        width: 80%;
+        align-self: center;
+        margin-bottom: -20px;
+    }
+
+
+
+    .head-btns{
+
+        margin: 10px 10px 35px 10px;
+    }
+}
