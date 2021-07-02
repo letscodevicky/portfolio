@@ -55,7 +55,7 @@ const Contact =() => {
           toAdress = "/about"
           />
        <div className="vector-frame">
-         <img src = {contactvector} alt = "contactvector " className = "aboutimage" />
+         <img src = {contactvector} alt = "contactvector " className = "about-vector" />
         </div>
       </div>
     );
