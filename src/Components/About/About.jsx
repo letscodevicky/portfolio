@@ -35,7 +35,7 @@ const About =() => {
             </div>
             <div className='resbtn' >
 <a className ="res-btn"
-              href= 'http://www.facebook.com' target ='blank' > 
+              href= 'https://drive.google.com/file/d/18Fuicy6GvxHejOTPO2pFG7CBBQzSHA76/view?usp=drivesdk' target ='blank' > 
                Download CV
               </a>
 </div>
