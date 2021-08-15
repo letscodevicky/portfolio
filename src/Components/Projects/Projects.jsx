@@ -9,7 +9,7 @@ const Projects =() => {
       <div className="section-container">
          <Header
          heading="My projects"
-         details = " gfggfjgfsgadgfs"
+         details = "All Live Projects"
          />
          <div className="project-cards-container">
           {projectsData.map((
